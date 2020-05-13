@@ -18,3 +18,10 @@ for i=2:len(x)
        x(i) = x(i-1) - 1; 
     end
 end
+
+
+figure;
+plot(t,x,'-k');
+ylim([-10 10]);
+xlabel('t');
+ylabel('x');
