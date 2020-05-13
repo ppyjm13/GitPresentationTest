@@ -22,6 +22,6 @@ end
 
 figure;
 plot(t,x,'-k');
-ylim([-10 10]);
+ylim([floor(min(x)*1.1-1), ceil(max(x)*1.1+1)]);
 xlabel('t');
 ylabel('x');
