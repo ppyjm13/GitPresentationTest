@@ -8,10 +8,10 @@ final_t = 20;
 probability_up = 0.5;
 probability_down = 1.0 - probability_up;
 
-x = zeros(1, final_t-initial_t);
+x = zeros(1, final_t-initial_t+1);
 t = initial_t:final_t;
 x(1) = initial_x;
-for i=2:len(x)
+for i=2:length(x)
     if rand < probability_up
        x(i) = x(i-1) + 1; 
     else
