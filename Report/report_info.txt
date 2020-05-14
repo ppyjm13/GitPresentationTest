@@ -1,0 +1,6 @@
+% Conclusions
+For all problems, we saw that the neural networks perform at least as well as the variants of the KNN algorithm. In the case of multi-class prediction we saw a huge increase in F1 score and accuracy from KNN to neural network. Despite the more complex nature and expressiveness of neural networks, the application to the other two problems did not improve with any statistical significance; we would need a much larger sample size of data to make further distinctions.
+
+% Introduction
+
+Traditionally, designing models to make predictions on complex phenomena, such as emotions from images, has been very difficult. The aim of this project is to investigate how effective modern neural network techniques are at extracting useful information from facial data. We have three labelled data sets consisting of a map of facial points extracted from real images (the features) and their corresponding labels. The three label sets were: smile or no smile (1 or 0); the emotions of disgust, happiness, sadness, anger, fear and surprise (encoded as integers 1-6 respectively); the yaw angle of the head. These three data sources form the basis of the binary classification, multi-class and regression problems.
