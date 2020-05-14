@@ -4,7 +4,7 @@
 
 initial_x = 0;
 initial_t = 0;
-final_t = 20;
+final_t = 40;
 probability_up = 0.5;
 probability_down = 1.0 - probability_up;
 
